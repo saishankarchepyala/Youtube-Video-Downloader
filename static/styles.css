@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#loading-spinner {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007BFF; /* Change color to match the button */
+    margin-top: 10px;
+    text-align: center;
+}
+
+#download-link {
+    display: inline-block;
+    margin-top: 5px;
+    color: #007BFF; /* Link color */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#download-link:hover {
+    color: #0056b3; /* Link hover color */
+}
