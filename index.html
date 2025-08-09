@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YouTube Video Downloader</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>YouTube Video Downloader</h2>
+    <input id="videoUrl" type="text" placeholder="Enter YouTube Video URL" />
+
+    <label for="quality">Select Quality:</label>
+    <select id="quality">
+      <option value="144p">144p</option>
+      <option value="240p">240p</option>
+      <option value="360p">360p</option>
+      <option value="480p">480p</option>
+      <option value="720p" selected>720p HD</option>
+      <option value="1080p">1080p Full HD</option>
+      <option value="1440p">1440p 2K</option>
+      <option value="2160p">2160p 4K</option>
+    </select>
+
+    <label for="downloadType">Download Type:</label>
+    <select id="downloadType">
+      <option value="video">Video</option>
+      <option value="audio">Audio</option>
+    </select>
+
+    <button onclick="downloadVideo()">Download</button>
+    <div id="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
